@@ -72,7 +72,7 @@ node_modules pitää asentaa frontendin juuressa komennolla:
 `nmp i`
 client käyntiin frontendin juuresta komennolla:
 `nmp start`
-localhost
+sovellus käynnistyy selaimen osoitteeseen http://localhost:3000/
 
 # 3. Reflektio ja ajankäyttö
 
