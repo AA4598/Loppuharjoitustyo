@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/4749710d-b395-47a0-9270-cb03ac817983/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/greattrainingdiary",
+  "appService.deploySubpath": "."
+}

@@ -48,7 +48,7 @@ const Navigation = ({ user, callBack }) => {
             <div className='ml-auto' style={{ paddingRight: '15px' }}>{'Kirjautunut: ' + user}</div>
             <LinkContainer to={'/'} exact>
               <NavItem>
-                <Button variant='dark' onClick={() => { callBack("logout") }}>Logout</Button>
+                <Button variant='dark' onClick={() => { callBack("logout") }}>Kirjaudu ulos</Button>
               </NavItem>
             </LinkContainer>
           </>
@@ -57,7 +57,7 @@ const Navigation = ({ user, callBack }) => {
         {!user &&
 
           < NavItem className='ml-auto'>
-            <Button variant='info' onClick={() => { callBack("login") }}>Login</Button>
+            <Button variant='info' onClick={() => { callBack("login") }}>Kirjaudu</Button>
           </NavItem>
 
         }

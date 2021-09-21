@@ -29,6 +29,7 @@ const RegisterForm = ({ show, close, func }) => {
 
         if (p) {
 
+            //alert(firstName);
             let regData = {
                 "firstname": firstName,
                 "lastname": surName,
@@ -40,7 +41,6 @@ const RegisterForm = ({ show, close, func }) => {
             const data = await func(2, regData);
 
             if (data.code !== 200) {
-
 
                 setMessage({
                     header: 'Virhe',
@@ -79,11 +79,11 @@ const RegisterForm = ({ show, close, func }) => {
     }
 
     const clearFields = () => {
-        setFirstName('')
-        setSurName('')
-        setEmail('')
-        setPassword('')
-        setPro(false)
+        setFirstName('');
+        setSurName('');
+        setEmail('');
+        setPassword('');
+        setPro(false);
     }
 
     if (show) {
@@ -114,17 +114,17 @@ const RegisterForm = ({ show, close, func }) => {
                         </Form.Group>
 
                         <Form.Group controlId="formBasicCheckbox">
-                            <Form.Check type="checkbox" label="Ammattilainen" onChange={({ target }) => setFirstName(target.value)} />
+                            <Form.Check type="checkbox" label="Ammattilainen" onChange={({ target }) => setPro(target.value)} />
                         </Form.Group>
 
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={() => { close(false) }}>
                             Sulje
-                    </Button>
+                        </Button>
                         <Button type='Submit' variant="primary">
                             Valmis
-                   </Button>
+                        </Button>
                     </Modal.Footer>
                 </Form>
 
