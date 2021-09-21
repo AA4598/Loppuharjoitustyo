@@ -6,7 +6,7 @@
 
 # 1. Yleisesittely
 
-![Treenipäiväkirja etusivu](./pic.png)
+![Treenipäiväkirja etusivu](./pic.png?raw=true)
 
 ### Sovelluksen idea
 
