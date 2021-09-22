@@ -4,7 +4,7 @@
 
 ## JAMK / Tiko
 
-# 1. Yleisesittely
+## 1. Yleisesittely
 
 ![Treenipäiväkirja etusivu](./pic.png?raw=true)
 
@@ -27,9 +27,9 @@ Ammattilaiset- ja harrastajat-sivuilla näytetään tulokset päivittäin yhteen
 
 "Omat treenit"-sivulla näytetään käyttäjän omat treenitiedot. Lisäksi sivulla käyttäjä voi lisätä, muokata sekä poistaa omia suorituksiaan. Suorituksen tietoja ovat pvm, treenilaji, suorituskerrat, suorituspaino.
 
-# 2. Kuvaus teknologioista
+## 2. Kuvaus teknologioista
 
-## Lyhyehkö kuvaus eri teknologioiden käyttämisestä työssä
+### Lyhyehkö kuvaus eri teknologioiden käyttämisestä työssä
 
 Työssä toteutettu fullstack on MERN-stack.
 
@@ -45,17 +45,17 @@ Tokenit ovat JSON Web Token (JWT) -muotoisia tokeneja
 
 Fullstack (backend ja frontend) on julkaistu Herokuun sekä Azureen.
 
-### Julkaisu internetiin
+#### Julkaisu Internetiin
 
-#### Heroku
+##### Heroku
 
 https://greattrainingdiary.herokuapp.com/
 
-#### Azure
+##### Azure
 
 https://greattrainingdiary.azurewebsites.net/
 
-## Komennot, joilla kehitysversion saa Githubista omalle koneelle toimimaan
+### Komennot, joilla kehitysversion saa Githubista omalle koneelle toimimaan
 
 Projekti saadaan kopioitua omalle koneelle komennolla:
 `git clone https://github.com/AA4598/Loppuharjoitustyo`
@@ -71,19 +71,19 @@ client käyntiin frontendin juuresta komennolla:
 `nmp start`
 sovellus käynnistyy selaimen osoitteeseen http://localhost:3000/
 
-# 3. Reflektio ja ajankäyttö
+## 3. Reflektio ja ajankäyttö
 
-## Miten työ onnistui? Mikä oli helppoa, mikä vaikeaa?
+### Miten työ onnistui? Mikä oli helppoa, mikä vaikeaa?
 
 Työ onnistui hyvin ilman suurempia ongelmia, johtuen pitkälti siitä, että oli jo hieman aikaisempaa pohjaa/opiskelukokemusta.
 
 Työ kokonaisuudessaan oli yllättävän helppo, johtuen em. syistä.
 Vaikeinta oli kenties eräs pitkä NoSQL-lauseke.
 
-## Kuinka paljon käytit aikaa loppuharjoitustyön tekemiseen?
+### Kuinka paljon käytit aikaa loppuharjoitustyön tekemiseen?
 
 Paljon, en pitänyt kirjaa, mutta ainakin enemmän kuin 2op verran.
 
-## Mitä tietoja/taitoja sinun tulee vielä kehittää?
+### Mitä tietoja/taitoja sinun tulee vielä kehittää?
 
 Pitäisi kehittää muistiinpanojen, raportoinnin, dokumentoinnin tekemistä. Toimin liikaa (työ)muistin varassa ja siitä johtuen vaatii välillä kohtuuttomasti aikaa palautella asioita mieliin verrattuna siihen, että ne voisi jostakin lukea jo aikaisemmin "purskeltuna".
